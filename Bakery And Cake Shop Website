@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sweet Bliss - Bakery Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#fff8f5;color:#4a2c2a}
+nav{background:#fff;padding:18px 5%;display:flex;justify-content:space-between;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+nav h2{color:#d81b60}
+.hero{height:70vh;background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://images.unsplash.com/photo-1578985545062-69928b1d9587');background-size:cover;display:flex;align-items:center;padding:0 5%;color:white}
+.hero h1{font-size:42px}
+.btn{background:#d81b60;color:white;padding:12px 28px;border:none;border-radius:25px;margin-top:15px;cursor:pointer}
+.cakes{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:40px 5%}
+.cake{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+.cake img{width:100%;height:180px;object-fit:cover}
+.cake-body{padding:15px}
+.price{color:#d81b60;font-weight:bold;float:right}
+footer{text-align:center;padding:20px;background:#4a2c2a;color:white;margin-top:20px}
+</style>
+</head>
+<body>
+<nav><h2>🍰 Sweet Bliss</h2><div>Home | Cakes | Contact</div></nav>
+<div class="hero"><div><h1>Freshly Baked Happiness Everyday</h1><p>Custom Cakes, Pastries & Cookies - Best Bakery in Vijayawada</p><button class="btn">Order Now - Rs.650 onwards</button></div></div>
+<div style="text-align:center;padding-top:30px"><h2>Our Cakes - Seasonal Offers 20% OFF</h2></div>
+<div class="cakes">
+<div class="cake"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"><div class="cake-body"><h3>Chocolate Truffle <span class="price">Rs.650</span></h3><p>Rich chocolate ganache - Bestseller 1Kg</p></div></div>
+<div class="cake"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307"><div class="cake-body"><h3>Red Velvet <span class="price">Rs.750</span></h3><p>Cream cheese frosting - Premium</p></div></div>
+<div class="cake"><img src="https://images.unsplash.com/photo-1551024601-bec78aea704b"><div class="cake-body"><h3>Butterscotch <span class="price">Rs.550</span></h3><p>Crunchy chips - veg cake</p></div></div>
+<div class="cake"><img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94"><div class="cake-body"><h3>Custom Photo Cake <span class="price">Rs.900</span></h3><p>Your photo on cake - 2hr delivery</p></div></div>
+</div>
+<footer> Bakery and Cake Shop Website @ThadiSahasraThanvigmail.com in HanumanJunction | Responsive Design</footer>
+</body>
+</html>
